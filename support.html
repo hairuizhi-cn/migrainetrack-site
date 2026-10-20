@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MigraineTrack — Support</title>
+<style>
+  :root { --ink:#1c1c28; --muted:#5a5a6e; --brand:#5B5BD6; --line:#e6e6ef; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,"Helvetica Neue",sans-serif; color:var(--ink); background:#fafafc; line-height:1.65; }
+  header { background:linear-gradient(135deg,#5B5BD6 0%,#8a63d2 100%); color:#fff; padding:48px 24px 40px; text-align:center; }
+  header h1 { margin:0 0 6px; font-size:28px; }
+  header p { margin:0; opacity:.85; font-size:14px; }
+  nav { display:flex; gap:20px; justify-content:center; padding:14px 24px; background:#fff; border-bottom:1px solid var(--line); }
+  nav a { color:var(--brand); text-decoration:none; font-weight:600; font-size:15px; }
+  main { max-width:720px; margin:0 auto; padding:24px 24px 64px; }
+  h2 { font-size:19px; margin:34px 0 10px; padding-top:18px; border-top:1px solid var(--line); }
+  main > h2:first-child { border-top:none; margin-top:12px; }
+  h3 { font-size:16px; margin:20px 0 6px; }
+  p, li { font-size:15px; }
+  ul { padding-left:22px; }
+  li { margin:5px 0; }
+  details { background:#fff; border:1px solid var(--line); border-radius:10px; padding:14px 20px; margin:10px 0; }
+  details summary { font-weight:600; cursor:pointer; font-size:15px; }
+  details p { margin:10px 0 2px; color:var(--muted); }
+  .card { background:#fff; border:1px solid var(--line); border-radius:12px; padding:24px 28px; margin:24px 0; }
+  a { color:var(--brand); }
+  footer { text-align:center; color:var(--muted); font-size:13px; padding:24px; border-top:1px solid var(--line); }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>MigraineTrack</h1>
+  <p>Support · We usually reply within 48 hours</p>
+</header>
+
+<nav>
+  <a href="/">Privacy Policy</a>
+  <a href="/support.html">Support</a>
+</nav>
+
+<main>
+  <h2>Frequently Asked Questions</h2>
+
+  <details open>
+    <summary>How do I log a migraine attack?</summary>
+    <p>Tap the big “Log attack” button on the Home tab. For a quick entry, one tap is enough — you can fill in intensity, symptoms, triggers, and medications later from the same record. If you have more time, use the guided wizard.</p>
+  </details>
+
+  <details>
+    <summary>My attack is still ongoing — how do I track it?</summary>
+    <p>Start the attack from the app and it will appear on your Lock Screen as a Live Activity with the elapsed time and current intensity. When it ends, open the app and tap “End attack” — you can back-fill the exact end time if you logged it late.</p>
+  </details>
+
+  <details>
+    <summary>How does the free trial work?</summary>
+    <p>Pro features (pattern analysis, typical-duration forecasting, advanced statistics) are free for 7 days from when you start tracking — no subscription or payment method required. After that you can subscribe monthly or yearly. The yearly plan includes a 7-day free trial managed by the App Store.</p>
+  </details>
+
+  <details>
+    <summary>How do I restore a purchase I already made?</summary>
+    <p>Open the paywall and tap “Restore purchases”. Purchases are tied to your Apple ID, so make sure you are signed in with the same Apple ID you used to buy. If restoration fails, check Settings › App Store for your sign-in status.</p>
+  </details>
+
+  <details>
+    <summary>Where is my data stored? Do you have servers?</summary>
+    <p>Everything stays on your device. MigraineTrack has no servers and no accounts. Your records live in the app, and optionally in <strong>your own</strong> iCloud for backup — the developer has no access to it either way.</p>
+  </details>
+
+  <details>
+    <summary>How do I back up or move my data to a new iPhone?</summary>
+    <p>Open Settings › Backup inside the app and back up to iCloud. On a new device, sign in with the same Apple ID, install MigraineTrack, and choose “Restore from iCloud”. Make sure iCloud Drive is enabled in Settings › [your name] › iCloud.</p>
+  </details>
+
+  <details>
+    <summary>Can I import my history from another app?</summary>
+    <p>Yes. MigraineTrack can import your history from Migraine Buddy: open Settings › Import, choose your export file, and the app will map attacks, medications, and durations automatically. Importing the same file twice will not create duplicates.</p>
+  </details>
+
+  <details>
+    <summary>Does it work on Apple Watch?</summary>
+    <p>Yes. Install the companion app on your Apple Watch to log attacks from your wrist. A watch face complication shows your ongoing attack with its intensity and elapsed time.</p>
+  </details>
+
+  <details>
+    <summary>What are the pressure alerts?</summary>
+    <p>The weather card on the Home tab shows the barometric-pressure forecast for the next few days. When a day shows a large pressure swing — a common migraine trigger — the app can remind you to prepare. Enable it in Settings › Reminders.</p>
+  </details>
+
+  <details>
+    <summary>Why does the app ask for Health, Location, or Motion access?</summary>
+    <p>All three are optional and used only to enrich your records: Health provides sleep and cycle context, Location provides local weather, and Motion powers the iPhone barometer. Denying any of them does not break the app — you can always log attacks manually.</p>
+  </details>
+
+  <h2>Contact</h2>
+  <div class="card">
+    <p>If your question isn’t answered above, open an issue at
+      <a href="https://github.com/hairuizhi-cn/migrainetrack-site/issues">github.com/hairuizhi-cn/migrainetrack-site/issues</a>
+      — include your iOS version and device model if the problem is technical.</p>
+  </div>
+</main>
+
+<footer>MigraineTrack — Your data, yours alone.</footer>
+
+</body>
+</html>
